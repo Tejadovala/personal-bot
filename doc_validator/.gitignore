@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User uploads & validation reports (sensitive data - do not commit!)
+uploads/
+reports/
+
+# Temporary / testing files
+*.png
+*.jpg
+*.jpeg
+dummy_test.png
+
+# Local environment / system files
+.DS_Store
+Thumbs.db

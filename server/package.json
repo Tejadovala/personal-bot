@@ -1,0 +1,19 @@
+{
+  "name": "pdesign-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^11.0.0",
+    "nanoid": "^5.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "stripe": "^17.0.0",
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.0"
+  }
+}
